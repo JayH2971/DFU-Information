@@ -1,12 +1,6 @@
--- NOTE: Contents adapted from Template 1.11 by Donald Tipton
---
 # Each item is shown by class,  subclass
 # Use in quests as "Item _item_ item class # subclass #"
 #
-#	Artifacts of power
-Shifters_Shirt         5, 23
-
-# 	Generic items
 
 Drug Class             0, -1
 Indulcet               0, 0
@@ -76,49 +70,184 @@ CWU Open               4, 6
 CWU Cure Poison        4, 7
 Vampiric effect when strikes 4,8
 CWU Wizard's Fire      4, 9
+CWU Levitate           4, 10 ("Leaping item")
+CWH Water Walking      4, 11
+Absorbs spells         4, 12 ("item of Magicka")
+CWU Stamina            4, 13 ("Never Tiring item")
+CWU Slowfalling        4, 14 (item of Featherweight")
+CWU Shield             4, 15 (item, the Protector")
+CWU Shock              4, 16
+CWS Paralysis          4, 17 ("material Cursing item")
+CWU Far Silence        4, 18
+Enhances skill Dragonish 4, 19 ("item of Venom Spitting")
+CWU Fireball           4, 20 ("Blazing item of Fireballs")
+CWU Ice Storms         4, 21 ("Frosty item of Ice Storms")
+CWU Lightning          4, 22
+CWU Fire Storm         4, 23 ("Deadman's item")
+CWU Heal               4, 24
+CWH Orc Strength       4, 25 ("item of the Orc Lord")
+CWU Free Action        4, 26 ("Unrestrainable item")
+CWH Iron Will          4, 27
+CWH Nimbleness         4, 28
+CWH Feet of Notorgo    4, 29 ("Torgo's item")
+CWH Fortitude          4, 30
+CWH Charisma           4, 31 ("item of Friendship")
+CWH Jack of Trades     4, 32 ("item of Good Luck")
+CWS Sphere of Negation 4, 33 ("item of Oblivion")
+CWU Toxic Cloud        4, 34
+CWU Medusa's Gaze      4, 35 ("item of Paralysis")
+End of Magic Item Class
 
+5 is ancient artifact class, they're all defined as their own items
 
+Men's Clothing Class   6, -1 (all are blue-dyed, ground sprites are all clothing piles)
+Straps                 6, 0
+Armbands               6, 1
+Kimono                 6, 2
+Fancy Armbands         6, 3
+Sash                   6, 4
+Eodoric                6, 5
+Shoes                  6, 6
+Tall Boots             6, 7
+Boots                  6, 8
+Sandals                6, 9
+Casual Pants           6, 10
+Breeches               6, 11
+Short Skirt            6, 12
+Casual Cloak           6, 13
+Formal Cloak           6, 14
+Khajiit Suit           6, 15
+Dwynnen Surcoat        6, 16
+Short Tunic            6, 17
+Formal Tunic           6, 18
+Toga                   6, 19
+Reversible Tunic       6, 20
+Loincloth              6, 21
+Plain Robes            6, 22
+Priest Robes           6, 23
+Short Shirt            6, 24
+Short Shirt            6, 25 (same as 24 but has belt)
+Long Shirt             6, 26 (shirt looks pirate-y)
+Long Shirt             6, 27 (same as 26 but has belt)
+Short Shirt            6, 28 (inventory shirt is permanently closed)
+Short Shirt            6, 29 (same as 28 but has belt)
+Long Shirt             6, 30 (tight shirt with sleeves)
+Long Shirt             6, 31 (same as 30 but has belt)
+Open Tunic             6, 32
+Wrap                   6, 33 (lettuce skirt)
+Long Skirt             6, 34
+Anticlere Surcoat      6, 35
+Challenger Straps      6, 36 (vertical suspenders)
+Short Shirt            6, 37 (Legend of Zelda-ish tunic, has belt)
+Long Shirt             6, 38 (same as 37 but has sleeves)
+Vest                   6, 39 (black sides with gold chains in middle)
+Champion Straps        6, 40 (crossed suspenders)
+End of Men's Clothing Class
 
+Book Class                  7, -1
+book0                  7, 0 (common books)
+book1                  7, 1 (rarer books? not sure)
+book2                  7, 2 (common books)
+book3                  7, 3 (rarer books? not sure)
+Book Class appears to be limitless, subclass extends to 900 for no reason
 
+Furniture Class          8, -1 (this gives no valid result when called. Only pillows have a visible ground or inventory sprite)
+Plain Single Bed       8, 0
+Fancy Single Bed       8, 1
+Plain Double Bed       8, 2
+Fancy Double Bed       8, 3
+Large Oak Table        8, 4
+Large Cherry Table     8, 5
+Large Mahogany Table   8, 6
+Large Teak Table       8, 7
+Small Oak Table        8, 8
+Small Cherry Table     8, 9
+Small Mahogany Table   8, 10
+Small Teak Table       8, 11
+Oak Chair              8, 12
+Cherry Chair           8, 13
+Mahogany Chair         8, 14
+Teak Chair             8, 15
+Curtains               8, 16
+Fancy Curtains         8, 17
+Large Pillow           8, 18 (has pillow icon, looks tiny on ground)
+Small Pillow           8, 19 (has pillow icon, looks tiny on ground)
+Small Plain Rug        8, 20
+Large Plain Rug        8, 21
+Small Fine Rug         8, 22
+Large Fine Rug         8, 23
+Large Tapestry         8, 24
+Medium Tapestry        8, 25
+Small Tapestry         8, 26
+Large Skins            8, 27
+Small Skins            8, 28
+End of Furniture Class
 
+Fuel Class             9, -1
+Torch                  9, 0 (tall torch with skull, cannot be clicked on from ground)
+Lantern                9, 1
+Bandage                9, 2
+Oil                    9, 3
+Candle                 9, 4
+Parchment              9, 5
+End of Fuel Class
 
-mens_clothing          6, -1
-straps                 6, 0
-armbands               6, 1
-kimono                 6, 2
-boots                  6, 8
-Formal_cloak           6, 14
-book                   7, -1
-book0                  7, 0
-book1                  7, 1
-book2                  7, 2
-book3                  7, 3
-datura                 8, 0
-wolfbane               8, 1
-flamable               9, -1
-lantern                9, 1
-letter                 9, 5
-religious              10, -1
-common_symbol          10, 2
-bell                   10, 3
-talisman               10, 5
-scarab                 10, 9
-map                    11, -1
-womens_clothing        12, -1
+Religious Class        10, -1
+Prayer Beads           10, 0
+Rare Symbol            10, 1
+Common Symbol          10, 2
+Bell                   10, 3
+Holy Water             10, 4
+Talisman               10, 5
+Religious Item         10, 6
+Small Statue           10, 7
+Icon                   10, 8
+Scarab                 10, 9
+Holy Candle            10, 10
+Holy Dagger            10, 11
+Holy Tome              10, 12
+End of Religious Class
+
+Map Class              11, -1
+Map                    11, 0
+End of Map Class
+
+womens_clothing        12, -1 *******
 womens_robe            12, 18
-painting               13, -1
-portrait               13, 0
-Lysandus_death         13, 0
-gem                    14, -1
-ruby                   14, 0
-emerald                14, 1
-sapphire               14, 2
-diamond                14, 3
-jade                   14, 4
-turquoise              14, 5
-malachite              14, 6
-amber                  14, 7
-small_plant            15, -1
+
+
+
+Painting Class         13, -1
+Portrait               13, 0 (spawns a random painting)
+End of Painting Class
+
+Gem Class              14, -1
+Ruby                   14, 0
+Emerald                14, 1
+Sapphire               14, 2
+Diamond                14, 3
+Jade                   14, 4
+Turquoise              14, 5
+Malachite              14, 6
+Amber                  14, 7
+End of Gem Class
+
+Small Plant Class      15, -1
+Twigs                  15, 0
+Green Leaves           15, 1
+Red Flowers            15, 2
+Yellow Flowers         15, 3
+Root Tendrils          15, 4
+Root Bulb              15, 5
+Pine Branch            15, 6
+Green Berries          15, 7
+Red Berries            15, 8
+Yellow Berries         15, 9
+
+
+
+
+
 large_plant            16, -1
 yellow_flowers         16, 3
 root_tendrils          16, 4
