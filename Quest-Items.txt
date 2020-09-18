@@ -1,6 +1,6 @@
 # Each item is shown by class,  subclass
 # Use in quests as "Item _item_ item class # subclass #"
-#
+# I just made up each class name as I went, besides the obviously adopted ones
 
 Drug Class             0, -1
 Indulcet               0, 0
@@ -232,7 +232,7 @@ Malachite              14, 6
 Amber                  14, 7
 End of Gem Class
 
-Small Plant Class      15, -1
+Flowers Class          15, -1
 Twigs                  15, 0
 Green Leaves           15, 1
 Red Flowers            15, 2
@@ -243,54 +243,118 @@ Pine Branch            15, 6
 Green Berries          15, 7
 Red Berries            15, 8
 Yellow Berries         15, 9
+Clover                 15, 10
+Red Rose               15, 11
+Yellow Rose            15, 12
+Red Poppy              15, 13
+Golden Poppy           15, 14
+End of Small Plant Class
 
+Medicinal Class        16, -1
+Twigs                  16, 0
+Green Leaves           16, 1
+Red Flowers            16, 2
+Yellow Flowers         16, 3
+Root Tendrils          16, 4
+Root Bulb              16, 5
+Green Berries          16, 6
+Red Berries            16, 7
+Yellow Berries         16, 8
+Black Rose             16, 9
+White Rose             16, 10
+Black Poppy            16, 11
+White Poppy            16, 12
+Gingko Leaves          16, 13
+Bamboo                 16, 14
+Palm                   16, 15
+Aloe                   16, 16
+Fig                    16, 17
+Cactus                 16, 18
+End of Medicinal Class
 
+Organs Class           17, -1
+Werewolf Blood         17, 0
+Fairy Dragon's Scales  17, 1
+Wraith Essence         17, 2
+Ectoplasm              17, 3
+Ghoul's Tongue         17, 4
+Spider's Venom         17, 5
+Troll's Blood          17, 6
+Snake Venom            17, 7
+Gorgon Snake           17, 8
+Lich Dust              17, 9
+Giant's Blood          17, 10
+Basilisk Eye           17, 11
+Daedra Heart           17, 12
+Saint's Hair           17, 13
+Orc's Blood            17, 14
+End of Organs Class
 
+Skin Class             18, -1
+Dragon's Scales        18, 0
+Giant Scorpion Stinger 18, 1
+Small Scorpion Stinger 18, 2
+Mummy Wrappings        18, 3
+Harpy Feather          18, 4
+End of Skin Class
 
+Mythic Class           19, -1
+Wereboar's Tusk        19, 0
+Nymph Hair             19, 1
+Unicorn Horn           19, 2
+End of Mythic Class
 
-large_plant            16, -1
-yellow_flowers         16, 3
-root_tendrils          16, 4
-organs                 17, -1
-werewolf_blood         17, 0
-wraith_essence         17, 2
-snake_venom            17, 7
-lich_dust              17, 9
-basilisk_eye           17, 11
-daedra_heart           17, 12
-skin                   18, -1
-mummy_wrappings        18, 3
-harpy_feather          18, 4
-mythic                 19, -1
-tusk                   19, 0
-horn                   19, 2
 misc                   20, -1
 Holy_relic             20, 0
 Pure_water             20, 4
 Elixir_vitae           20, 6
+
 element                21, -1
 lodestone              21, 3
 gold_bar               21, 9
+
 mineral                22, -1
 ivory                  22, 0
 pearl                  22, 1
+
 transport              23, -1
+
 deed                   24, -1
+
 trinket                25, -1
-amulet                 25, 0
-bracer                 25, 1
-ring                   25, 2
-bracelet               25, 3
-mark                   25, 4
-torc                   25, 5
-cloth_amulet           25, 6
-wand                   25, 7
-specials               26, -1
-telescope              26, 0
-totem                  26, 4
-dead_body              26, 5
-mantella_crux          26, 6
-finger                 26, 7
-random_map             27, 8
-random_recipe          27, 4
-coins                  28, 0
+
+Jewelry Class          25, -1
+Amulet                 25, 0
+Bracer                 25, 1
+Ring                   25, 2
+Bracelet               25, 3
+Mark                   25, 4
+Torc                   25, 5
+Cloth Amulet           25, 6
+Wand                   25, 7
+End of Jewelry Class
+
+Quest Item Class       26, -1
+Telescope              26, 0
+Scales                 26, 1 (ie money scales, balance)
+Globe                  26, 2
+Skeleton               26, 3 (skeleton on vertical display, cannot be clicked on)
+Totem                  26, 4 (the main quest totem)
+Dead Body              26, 5
+Mantella               26, 6 (looks like two crystals coming out of dirt? worth 100000 gold, not seen in game)
+Finger                 26, 7
+End of Quest Items Class
+
+Adventuring Class            (-1 value does not work in this class)
+Spellbook              27, 0
+Soul Trap              27, 1 (aka soul gem)
+Letter of Credit       27, 2 (worth zero gold)
+Gold Pieces            27, 3 (just a sprite of gold pieces. does not become money in inventory)
+Potion Recipe          27, 4 (always Recipe for Potion of Unknown Powers, with no ingredients)
+Dead Body              27, 5
+House Deed             27, 6 (unusable item, reads "Deed for your house in the region of %hrg in the town of %htwn.")
+Ship Deed              27, 7
+Map                    27, 8 (map to random dungeon)
+End of Adventuring Class
+
+Gold coin              28, 0 (a single gold coin. ground sprite is gold pile)
