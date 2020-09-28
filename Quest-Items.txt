@@ -12,6 +12,7 @@ End of Drug Class
 Junk Class             1, -1
 Glass Jar              1, 0
 Potion                 1, 1
+Potion specific type:         Item _p1_ potion key 221871 [recipe number]
 decanter               1, 2
 Clay Jar               1, 3
 Small Sack             1, 4
