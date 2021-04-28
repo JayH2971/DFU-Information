@@ -1,0 +1,74 @@
+"create foe" creates all foes on their natural team, NOT on player enemy. Make sure to assign
+them to a common team if you don't want them infighting.
+
+You can "create foe" and then immediately afterward declare infighting for the enemy if it's one,
+it should hold.
+
+You can declare infighting for an enemy any time after you use "place foe" and it should hold.
+
+_infight_ mechanic of "daily from 0:00 to 23:59" is the easiest way to establish constant
+teamchange/infighting change, haven't yet identified other methods to do so. "pc at" doesn't work unless
+you're using "spam spawning" like in Death's Embrace.
+
+Rat: Vermin 0
+Imp: Magic 1
+Spriggan: Spriggans 2
+Bat: Vermin 3
+Bear: Bears 4
+Tiger: Tigers 5
+Spider: Spiders 6
+Orc: Orcs 7
+Centaur: Centaurs 8
+Werewolf: Werecreatures 9
+Nymph: Nymphs 10
+Slaughterfish: Aquatic 11
+Orc Sergeant: Orcs 12
+Harpy: Harpies 13
+Wereboar: Werecreatures 14
+Skeletal Warrior: Undead 15
+Giant: Giants 16
+Zombie: Undead 17
+Ghost: Undead 18
+Mummy: Undead 19
+Giant Scorpion: Scorpions 20
+Orc Shaman: Orcs 21
+Gargoyle: Magic 22
+Wraith: Undead 23
+Orc Warlord: Orcs 24
+Frost Daedra: Daedra 25
+Fire Daedra: Daedra 26
+Daedroth: Daedra 27
+Vampire: Undead 28
+Daedra Seducer: Undead 29
+Vampire Ancient: Undead 30
+Daedra Lord: Daedra 31
+Lich: Undead 32
+Ancient Lich: Undead 33
+Dragonling: Dragonlings 34
+Fire Atronach: Magic 35
+Iron Atronach: Magic 36
+Flesh Atronach: Magic 37
+Ice Atronach: Magic 38
+Alt Dragonling: Dragonlings 40
+Dreugh: Aquatic 41
+Lamia: Aquatic 42
+
+Mage: KnightsAndMages 128
+Spellsword: KnightsAndMages 129
+Battlemage: KnightsAndMages 130
+Sorcerer: KnightsAndMages 131
+Healer: KnightsAndMages 132
+Nightblade: Criminals 133
+Bard: KnightsAndMages 134
+Burglar: Criminals 135
+Rogue: Criminals 136
+Acrobat: KnightsAndMages 137
+Thief: Criminals 138
+Assassin: Criminals 139
+Monk: KnightsAndMages 140
+Archer: KnightsAndMages 141
+Ranger: KnightsAndMages 142
+Barbarian: Criminals 143
+Warrior: KnightsAndMages 144
+Knight: KnightsAndMages 145
+City Watch: CityWatch 146
