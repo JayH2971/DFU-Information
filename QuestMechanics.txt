@@ -10,6 +10,8 @@ _infight_ mechanic of "daily from 0:00 to 23:59" is the easiest way to establish
 teamchange/infighting change, haven't yet identified other methods to do so. "pc at" doesn't work unless
 you're using "spam spawning" like in Death's Embrace.
 
+MOBILE, TEAM, AND ENTITY NUMBER
+
 Rat: Vermin 0
 Imp: Magic 1
 Spriggan: Spriggans 2
@@ -72,3 +74,28 @@ Barbarian: Criminals 143
 Warrior: KnightsAndMages 144
 Knight: KnightsAndMages 145
 City Watch: CityWatch 146
+
+TEAMS
+
+0 Player Enemy
+1 Player Ally
+2 Vermin
+3 Spriggans
+4 Bears
+5 Tigers
+6 Spiders
+7 Orcs
+8 Centaurs
+9 Werecreatures
+10 Nymphs
+11 Aquatic
+12 Harpies
+13 Undead
+14 Giants
+15 Scorpions
+16 Magic
+17 Daedra
+18 Dragonlings
+19 KnightsAndMages
+20 Criminals
+21 CityWatch
